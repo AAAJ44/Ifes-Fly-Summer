@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <title>Ifes Fly Summer</title>
+    <link rel="icon"  type="image/jpg" href="../Ifes flysa/Imagenes/logo.jpg">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -39,17 +43,39 @@
                 <a href="https://www.instagram.com/p/CZYOpeAvysR/?utm_source=ig_web_button_share_sheet" target="blank"
                     class="link">Mas Info</a>
             </div>
-            <div class="contenedor-pequeño">
-                <a>
-                    <img src="./Imagenes/equipoactual.jpg" alt="" />
-                </a>
-            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./Imagenes/equipoactual.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/imagen 1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/imagencarru.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              
         </article>
 
         <main class="contenido">
             <article class="articulo">
                 <div class="contenedor-pequeño">
-                    <a href="#"><img src="./Imagenes/actualcampeonfem.jpeg"  alt="" /></a>
+                    <a href="#"><img src="./Imagenes/actualcampeonfem.jpeg" alt="" /></a>
                 </div>
                 <div class="contenedor-texto">
                     <div>
@@ -65,7 +91,8 @@
                         se disputara a fines de febrero en Puerto Madryn luego de consagrarse campeones del arena 1000
                         realizado en la provincia de Rio Negro.
                     </p>
-                    <a href="https://www.instagram.com/p/CY0XhfOJWsN/?utm_source=ig_web_copy_link" target="blank" class="link">Mas
+                    <a href="https://www.instagram.com/p/CY0XhfOJWsN/?utm_source=ig_web_copy_link" target="blank"
+                        class="link">Mas
                         Info</a>
                 </div>
             </article>
@@ -87,8 +114,8 @@
                         El siguiente desafio de ambos equipos es el Centro sur de clubes. Torneo mas importante al cual
                         van a asistir desde sus inicios.
                     </p>
-                    <a href="http://handballargentina.org/cah/2021/12/las-playas-de-puerto-madryn-seran-sede-del-1o-sur-centro-de-clubes-de-beach-handball/" target="blank"
-                        class="link">Mas Info</a>
+                    <a href="http://handballargentina.org/cah/2021/12/las-playas-de-puerto-madryn-seran-sede-del-1o-sur-centro-de-clubes-de-beach-handball/"
+                        target="blank" class="link">Mas Info</a>
                 </div>
             </article>
 
@@ -106,7 +133,8 @@
                         Chicos pertenecientes a Ifes fly summer fueron llamados a realizar una concentracion en el
                         Balneario "El Condor"
                     </p>
-                    <a href="https://www.instagram.com/p/CNLvPlWlJF0/?utm_source=ig_web_copy_link" target="blank" class="link">Mas
+                    <a href="https://www.instagram.com/p/CNLvPlWlJF0/?utm_source=ig_web_copy_link" target="blank"
+                        class="link">Mas
                         Info</a>
                 </div>
             </article>
@@ -132,10 +160,12 @@
             <p class="seguinos">Seguinos en: <a href="http://www.instagram.com/ifesflysummer/"
                     target="_blank">Instagram</a></p>
 
-            <a class="volver-a-inicio" href="index.html">Web creada por Lautaro Duran</a>
+            <a href="index.html" class="link-warning">Web creada por Duran Lautaro</a>
 
         </footer>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
