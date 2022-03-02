@@ -8,3 +8,11 @@
 	grid-area: footer;
 	text-align: center;
 }
+
+@each $name, $value in $redes {
+	.red-#{$name}:hover{
+		background-color: map-get($redes , #{$name}) ;
+		color: white;
+	}
+}
+/*finaliza footer*/

@@ -6,6 +6,20 @@
           box-sizing: border-box;
 }
 
+.articulo-general, .articulo.destacado {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: destacado;
+  color: white;
+  background-color: #000;
+  -webkit-box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+          box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: 1.3fr 1fr;
+}
+
 body {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
@@ -158,21 +172,6 @@ form {
 }
 
 /* Articulo Destacado */
-.articulo.destacado {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: destacado;
-  color: white;
-  background-color: #000;
-  -webkit-box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
-          box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1.3fr 1fr;
-      grid-template-columns: 1.3fr 1fr;
-}
-
 .articulo.destacado .contenedor-pequeño {
   min-height: 100%;
   width: 100%;
@@ -297,6 +296,22 @@ form {
   text-align: center;
 }
 
+.red-Facebook:hover {
+  background-color: blue;
+  color: white;
+}
+
+.red-Twitter:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+.red-Instagram:hover {
+  background-color: purple;
+  color: white;
+}
+
+/*finaliza footer*/
 @media (min-width: 1200px) {
   body {
     font-size: 16px;
